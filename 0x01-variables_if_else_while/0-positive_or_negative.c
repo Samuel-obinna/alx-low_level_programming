@@ -1,10 +1,11 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
+
 /**
  * main - Print Random Numbers
  * code by sazzy
- * Return: 0
+ * Return: (0)
 */
 
 int main(void)
@@ -20,3 +21,4 @@ int main(void)
 	else
 		printf("%d is zero\n", n);
 	return (0);
+}
