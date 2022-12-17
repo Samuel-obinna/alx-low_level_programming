@@ -8,19 +8,17 @@
 
 void print_to_98(int n)
 {
-	int digits;
-
-	if (n < 98)
+	if (n >= 98)
 	{
-		for (digits = n; digits <= 98; digits++)
-			_putchar(digits + '0');
+		while (n > 98)
+			printf("%d, ", n--);
+		printf("%d\n", n);
 	}
 	else
 	{
-		for (digits = n; digits >= 98; digits--)
-			_putchar(digits + '0');
+		while (n < 98)
+			printf("%d, ", n++);
+		printf("%d\n", n);
 	}
-	_putchar(',');
-	_putchar(' ');
-	_putchar('\n');
 }
+
