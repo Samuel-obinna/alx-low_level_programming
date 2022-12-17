@@ -4,10 +4,9 @@
  * print_to_98 - Print from n to 98
  * @n: The number to start printing from
  * Code written by Sazzy
- * Return: 0
 */
 
-int print_to_98(int n)
+void print_to_98(int n)
 {
 	int digits;
 
@@ -23,5 +22,4 @@ int print_to_98(int n)
 	}
 	_putchar(',');
 	_putchar(' ');
-	return (0);
 }
